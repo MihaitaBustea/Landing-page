@@ -59,17 +59,11 @@ body {
     margin-left: 100px;
 }
 
-.first-section > .image {
-    display: flex;
-    margin-right: 100px;
-    flex-shrink: 0;
-}
-
 .first-section > .hero > h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.first-section > .her > p {
+.first-section > .hero > p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -81,35 +75,75 @@ body {
     border-style: none;
     font-size: 14px;
     color: #F9FAF8;
+    margin-bottom: 20px;
 }
 
-.image {
+.first-section > .image {
+    margin-right: 100px;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.image {
     height: 400px;
     width: 400px;
 }
 
-.image > img {
+.first-section > .image > img {
     height:auto;
     max-width: 100%;
 }
 
-.card {
-    height: 200px;
-    width: 200px;
+.second-section {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.card > img{
-    height: auto;
-    max-width: 100%;
+.second-section > h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
+
+.second-section > .image-cards {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.second-section > .image-cards > .card {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-section > .image-cards > .card > a > img {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    border: 8px solid #3882F6;
+    border-radius: 10%;
+}
+
+.second-section > .image-cards > .card > p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 170px;
 }
 
 a {
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.third-section {
+    display: flex;
 }
