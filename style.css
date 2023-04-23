@@ -145,5 +145,31 @@ a {
 }
 
 .third-section {
+    background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-section > h1 {
+    margin-left: 360px;
+    margin-right: 360px;
+    color: #1F2937;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: 100;
+    margin-top: 60px;
+    border: 1px solid red;
+}
+
+.third-section > p {
+    align-self: flex-end;
+    margin-right: 360px;
+    margin-top: 0;
+    border: 1px solid orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 60px;
 }
